@@ -1,0 +1,22 @@
+.filters-box {
+  min-width: 264px;
+  height: 234px;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid #CFCFE4;
+  .filter{
+    padding: 12px;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+
+    &-active{
+      color: #FFFFFF;
+      background-color: #5FBF77;
+    }
+  }
+}
